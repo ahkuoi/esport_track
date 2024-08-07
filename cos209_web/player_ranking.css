@@ -1,0 +1,44 @@
+
+body {
+    background-color: #1c1c1c;
+    color: #ddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #2c2c2c;
+}
+
+tr:hover {
+    background-color: #444;
+}
+
+.team-logo {
+    max-width: 50px;
+    border-radius: 8px;
+}
+
+.links a {
+    margin-right: 10px;
+    color: #ddd;
+}
+
+.links a:hover {
+    color: #fff;
+}
